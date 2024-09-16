@@ -1,0 +1,59 @@
+body {
+  background-image: url(../images/firework2.jpeg);
+  color: rgb(2, 2, 2);
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  border: 3px solid rgb(0, 85, 255);
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+img {
+  width: 45%;
+  display: block;
+  margin: 10px auto;
+}
+
+.picture {
+  width: 200px;
+  height: 125px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-family: cursive;
+}
+
+p {
+  font-family: "Times New Roman";
+}
+
+.center-align {
+  text-align: center;
+}
+
+.left-align {
+  text-align: left;
+  width: 480px;
+}
+
+.right-align {
+  text-align: right;
+  width: 480px;
+}
+
+.content {
+  width: 480px;
+  display: inline-block;
+  border: 4px solid rgba(248, 106, 106, 0.484);
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+}
