@@ -39,16 +39,16 @@ p {
 
 .left-align {
   text-align: left;
-  width: 480px;
+  width: 100%;
 }
 
 .right-align {
   text-align: right;
-  width: 480px;
+  width: 100%;
 }
 
 .content {
-  width: 480px;
+  width: 40%;
   display: inline-block;
   border: 4px solid rgba(248, 106, 106, 0.484);
   padding: 10px;
