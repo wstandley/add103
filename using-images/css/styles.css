@@ -3,8 +3,8 @@ body {
   /* Add styles here to affect the entire page */
   background-image: url(../images/aurora-borealis.jpg);
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 /* Styling for the div and header elements, affecting the width, margin, border, and background color */
@@ -38,6 +38,10 @@ h2 {
 /* Placeholder for the background styling, add your specific styles here */
 #background {
   /* Add background-specific styles here */
+  background-image: url(../images/tree.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
 }
 
 /* Placeholder for the image map styling, add your specific styles here */
