@@ -44,22 +44,17 @@ h2 {
   background-attachment: scroll;
 }
 
-/* Placeholder for the image map styling, add your specific styles here */
-#img-map {
-  /* Add image map-specific styles here */
-}
-
 /* Placeholder for floating left, add your specific styles here */
 #float-left img {
   /* Add floating left-specific styles here */
   float: left;
   margin: 20px;
+  width: 50%;
 }
 
 #float-left {
   color: white;
   overflow: auto;
-  padding: 20px;
 }
 
 /* Placeholder for floating right, add your specific styles here */
@@ -67,26 +62,51 @@ h2 {
   /* Add floating right-specific styles here */
   float: right;
   margin: 30px;
+  width: 50%;
 }
 
 #float-right {
   color: white;
   overflow: auto;
-  padding: 20px;
 }
 
 /* Placeholder for picture tag, add your specific styles here */
-#picture-tag {
+#picture-tag img {
   /* Add picture tag-specific styles here */
+  width: 50%;
+  margin: 20px;
 }
 
 /* Placeholder for linked image, add your specific styles here */
-#linked-image {
+#linked-image img {
   /* Add linked image-specific styles here */
-  /* Style Smaller */
+  width: 50%;
+  margin: 30px;
 }
 
 /* Placeholder for image as a link, add your specific styles here */
-#img-as-link {
+#img-as-link img {
   /* Add image as link-specific styles here */
+  width: 50%;
+  margin: 30px;
+}
+
+#hard-drive img {
+  width: 50%;
+  margin: 20px;
+}
+
+#headset img {
+  width: 50%;
+  margin: 20px;
+}
+
+#keyboard img {
+  width: 50%;
+  margin: 20px;
+}
+
+#mouse img {
+  width: 50%;
+  margin: 20px;
 }
