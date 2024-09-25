@@ -1,7 +1,14 @@
 body {
-  background-color: ;
+  background-color: rgb(1, 99, 1);
   font-family: "Times New Roman", Times, serif;
   color: ;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.435);
+  margin-left: 8%;
+  margin-right: 8%;
+  border: 8px solid rgb(0, 65, 0);
 }
 
 h1,
@@ -11,15 +18,12 @@ h2 {
   text-align: center;
 }
 
-ul {
-  list-style-type: none;
-  color: ;
-}
-
-ul a {
-  text-decoration: none;
-  line-height: 1.5;
-  font-size: ;
+.gaming,
+.cars,
+.anime,
+.gym,
+.work {
+  text-align: center;
 }
 
 nav {
@@ -27,19 +31,21 @@ nav {
 }
 
 nav a {
-  margin-left: 30px;
-  color: ;
+  margin-left: 2%;
+  margin-right: 2%;
+  color: rgb(236, 255, 140);
   text-decoration: none;
   font-size: 20px;
   padding: 10px 15px;
   line-height: 3;
-  background-color: ;
+  background-color: rgb(0, 76, 0);
   border-radius: 20px;
-  border: 2px solid;
+  border: 2px solid black;
   /* add color to border */
 }
 
 nav a:hover {
-  color: ;
-  background: ;
+  color: white;
+  background: green;
+  border: 2px solid white;
 }
