@@ -1,11 +1,40 @@
 body {
   /* Insert Background Styles */
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+#container {
+  background-color: rgb(46, 51, 25);
+  width: auto;
+  padding: 5px;
+  float: left;
 }
 
 ul {
   list-style-type: disc;
+  color: rgb(255, 255, 255);
 }
 
 ul ul {
   list-style-type: circle;
+}
+
+#ordered {
+  background-color: rgb(46, 51, 25);
+  width: auto;
+  padding: 5px;
+  float: right;
+}
+
+#description {
+  background-color: rgb(46, 51, 25);
+  width: auto;
+  padding: 5px;
+}
+
+dt {
+}
+
+dd {
 }
