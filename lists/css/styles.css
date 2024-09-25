@@ -30,11 +30,11 @@ ul ul {
 #description {
   background-color: rgb(46, 51, 25);
   width: auto;
-  padding: 5px;
+  padding: 20px;
+  margin-left: 40%;
+  margin-right: 40%;
 }
 
-dt {
-}
-
-dd {
+h2 {
+  text-align: center;
 }
