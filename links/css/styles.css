@@ -1,0 +1,45 @@
+body {
+  background-color: ;
+  font-family: "Times New Roman", Times, serif;
+  color: ;
+}
+
+h1,
+h2 {
+  color: ;
+  font-weight: bolder;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  color: ;
+}
+
+ul a {
+  text-decoration: none;
+  line-height: 1.5;
+  font-size: ;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  margin-left: 30px;
+  color: ;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 15px;
+  line-height: 3;
+  background-color: ;
+  border-radius: 20px;
+  border: 2px solid;
+  /* add color to border */
+}
+
+nav a:hover {
+  color: ;
+  background: ;
+}
