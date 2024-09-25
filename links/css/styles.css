@@ -41,7 +41,6 @@ nav a {
   background-color: rgb(0, 76, 0);
   border-radius: 20px;
   border: 2px solid black;
-  /* add color to border */
 }
 
 nav a:hover {
