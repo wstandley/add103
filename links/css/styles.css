@@ -151,3 +151,102 @@ p {
   background-color: red;
   border: 2px solid black;
 }
+
+.cars .mazda {
+  color: white;
+  background-color: rgb(76, 75, 75);
+}
+
+.cars .mazda:hover {
+  color: rgb(76, 75, 75);
+  background-color: white;
+  border: 2px solid rgb(76, 75, 75);
+}
+
+.cars .pontiac {
+  color: white;
+  background-color: red;
+}
+
+.cars .pontiac:hover {
+  color: red;
+  background-color: white;
+  border: 2px solid red;
+}
+
+.cars .rockauto {
+  color: white;
+  background-color: rgb(0, 115, 255);
+}
+
+.cars .rockauto:hover {
+  color: rgb(0, 115, 255);
+  background-color: white;
+  border: 2px solid rgb(0, 115, 255);
+}
+
+.animes .crunchyroll {
+  color: white;
+  background-color: rgb(252, 118, 0);
+}
+
+.anime .crunchyroll:hover {
+  color: rgb(252, 118, 0);
+  background-color: white;
+  border: 2px solid rgb(252, 118, 0);
+}
+
+.animes .aot {
+  color: black;
+  background-color: yellow;
+}
+
+.anime .aot:hover {
+  color: yellow;
+  background-color: black;
+  border: 2px solid yellow;
+}
+
+.animes .naruto {
+  color: black;
+  background-color: rgb(255, 68, 0);
+}
+
+.anime .naruto:hover {
+  color: rgb(255, 68, 0);
+  background-color: black;
+  border: 2px solid rgb(255, 68, 0);
+}
+
+.gyms .edge {
+  color: white;
+  background-color: red;
+}
+
+.gyms .edge:hover {
+  color: red;
+  background-color: white;
+  border: 2px solid red;
+}
+
+.gyms .la {
+  color: black;
+  background-color: rgb(254, 197, 117);
+}
+
+.gyms .la:hover {
+  color: rgb(254, 197, 117);
+  background-color: white;
+  border: 2px solid rgb(254, 197, 117);
+}
+
+.gyms .diet {
+  color: white;
+  background-color: black;
+}
+
+.gyms .diet:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
