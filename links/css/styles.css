@@ -1,7 +1,6 @@
 body {
   background-color: rgb(1, 99, 1);
   font-family: "Times New Roman", Times, serif;
-  color: ;
 }
 
 .container {
@@ -11,9 +10,13 @@ body {
   border: 8px solid rgb(0, 65, 0);
 }
 
+h1 {
+  font-size: 42px;
+}
+
 h1,
 h2 {
-  color: ;
+  color: rgb(2, 46, 7);
   font-weight: bolder;
   text-align: center;
 }
@@ -24,6 +27,10 @@ h2 {
 .gym,
 .work {
   text-align: center;
+  border: 5px solid rgb(0, 65, 0);
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 2px;
 }
 
 nav {
@@ -43,8 +50,104 @@ nav a {
   border: 2px solid black;
 }
 
+nav .back {
+  font-size: 15px;
+  border-radius: 15px;
+}
+
 nav a:hover {
   color: white;
   background: green;
   border: 2px solid white;
+}
+
+div a {
+  text-decoration: none;
+}
+
+.footer p {
+  text-align: center;
+}
+
+#verizon a {
+  color: rgb(255, 255, 3);
+  text-decoration: none;
+  font-size: 20px;
+  background-color: rgb(211, 4, 0);
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+#verizon a:hover {
+  color: white;
+  background: red;
+  border: 2px solid white;
+}
+
+p {
+  font-size: larger;
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#job {
+  text-align: left;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+#verizon .apple {
+  color: black;
+  background-color: white;
+}
+
+#verizon .apple:hover {
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+}
+
+#verizon .samsung {
+  color: white;
+  background-color: blue;
+}
+
+#verizon .samsung:hover {
+  color: blue;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.games .discord {
+  color: white;
+  background-color: rgb(73, 19, 250);
+}
+
+.games .discord:hover {
+  color: rgb(60, 0, 255);
+  background-color: white;
+  border: 2px solid rgb(73, 19, 250);
+}
+
+.games .xbox {
+  color: white;
+  background-color: rgb(5, 173, 2);
+}
+
+.games .xbox:hover {
+  color: rgb(5, 173, 2);
+  background-color: white;
+  border: 2px solid rgb(5, 173, 2);
+}
+
+.games .rog {
+  color: red;
+  background-color: black;
+}
+
+.games .rog:hover {
+  color: black;
+  background-color: red;
+  border: 2px solid black;
 }
