@@ -1,3 +1,63 @@
 body {
-  line-height: 2;
+  background-color: rgb(13, 74, 13);
+}
+
+.container {
+  background-color: rgba(165, 251, 165, 0.586);
+  margin: 4%;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+#will {
+  font-size: 64px;
+}
+
+#title {
+  float: right;
+  margin: 2%;
+  width: 500px;
+  padding: 2px;
+}
+
+#about {
+  float: right;
+  margin: 2%;
+  text-align: right;
+  width: 60%;
+}
+
+img {
+  float: left;
+  width: 30%;
+  margin: 2%;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 15px;
+  line-height: 3;
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+#bottom {
+  margin: 5%;
+}
+
+#footer {
+  text-align: center;
 }
