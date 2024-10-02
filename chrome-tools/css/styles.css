@@ -10,14 +10,9 @@ h1 {
   font-family: cursive;
 }
 
-p {
-  marign-left: 40px;
-}
-
 img {
   width: 45%;
   margin: 10px 10px;
-  pading: 3px 5px;
   border: 4px solid #056115;
 }
 
@@ -51,9 +46,6 @@ dd {
 
 p {
   text-align: center;
-}
-
-figcaption {
 }
 
 figure {
