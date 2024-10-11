@@ -8,12 +8,7 @@
   </head>
   <body>
     <div class="container">
-      <nav>
-        <a href="../home.html">Home</a>
-        <a href="#">Work</a>
-        <a href="family.html">Family</a>
-        <a href="hobbies.html">Hobbies</a>
-      </nav>
+      <div id="section_home">
       <h1>Work</h1>
       <h2>Cellular Sales, Authorized Retailer for Verizon</h2>
       <!-- https://chatgpt.com/share/66fb12f9-6e30-8013-b5e2-199acf947864 -->
@@ -51,7 +46,26 @@
         made many friends along the way. Each job has taught me valuable skills
         that I’ve carried into my current role.
       </p>
-      <p>&copy; 2024 William Standley</p>
+      <nav id="work">
+          <a href="../home.html" id="nav_links">Home</a>
+          <a href="../home.html">
+            <img src="../images/verizon.JPG" alt="Work" id="link" />
+          </a>
+        </nav>
+        <nav id="family">
+          <a href="family.html" id="nav_links">Family</a>
+          <a href="family.html">
+            <img src="../images/siblings.jpg" alt="Family" id="link" />
+          </a>
+        </nav>
+        <nav id="hobbies">
+          <a href="hobbies.html" id="nav_links">Hobbies</a>
+          <a href="hobbies.html">
+            <img src="../images/pc.jpeg" alt="Hobby" id="link" />
+          </a>
+        </nav>
+      </div>
+      <p id="footer">&copy; 2024 William Standley</p>
     </div>
   </body>
 </html>

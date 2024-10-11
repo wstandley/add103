@@ -15,15 +15,16 @@ h2 {
 #will {
   font-size: 64px;
   margin: 3%;
+  padding: 3%;
 }
 
 img {
-  max-width: 30%;
   margin: 1%;
 }
 
 #image_1 {
   float: left;
+  max-width: 30%;
 }
 
 #section_home {
@@ -51,7 +52,23 @@ nav {
   margin: 20px;
 }
 
-nav a {
+#work {
+  float: left;
+  width: 25%;
+}
+
+#hobbies {
+  float: inline-start;
+  width: 25%;
+  margin: 20px 20px 20px 8%;
+}
+
+#family {
+  width: 25%;
+  float: inline-end;
+}
+
+#nav_links {
   text-decoration: none;
   margin-left: 10%;
   margin-right: 10%;
@@ -62,6 +79,14 @@ nav a {
   background-color: white;
   border-radius: 20px;
   border: 2px solid black;
+}
+
+#body {
+  overflow: auto;
+}
+
+#link {
+  max-width: 90%;
 }
 
 #footer {
