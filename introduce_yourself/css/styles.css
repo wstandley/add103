@@ -2,9 +2,20 @@ body {
   background-color: rgb(13, 74, 13);
 }
 
+#work_back {
+  background-color: rgb(124, 1, 1);
+  color: white;
+}
+
 .container {
   background-color: rgba(165, 251, 165, 0.586);
   margin: 2%;
+}
+
+.work_contain {
+  background-color: rgba(251, 181, 181, 0.363);
+  margin: 2%;
+  color: rgb(250, 239, 239);
 }
 
 h1,
@@ -19,12 +30,25 @@ h2 {
 }
 
 img {
-  margin: 1%;
+  margin: 2%;
 }
 
 #image_1 {
   float: left;
   max-width: 30%;
+  border-radius: 15px;
+}
+
+#image_2 {
+  float: right;
+  max-width: 23%;
+  border-radius: 15px;
+}
+
+#image_3 {
+  float: left;
+  max-width: 20%;
+  border-radius: 30px;
 }
 
 #section_home {
@@ -45,6 +69,15 @@ img {
 #para {
   text-align: right;
   margin: 2%;
+}
+
+#paras {
+  margin: 2%;
+  padding: 5px;
+}
+
+.paras {
+  text-align: right;
 }
 
 nav {
