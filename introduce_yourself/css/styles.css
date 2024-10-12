@@ -19,7 +19,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   text-align: center;
 }
 
@@ -31,6 +32,7 @@ h2 {
 
 img {
   margin: 2%;
+  border-radius: 60px;
 }
 
 #image_1 {
