@@ -10,9 +10,10 @@ body {
 .container {
   background-color: rgba(165, 251, 165, 0.586);
   margin: 2%;
+  border-radius: 40px;
 }
 
-.work_contain {
+#work_contain {
   background-color: rgba(251, 181, 181, 0.363);
   margin: 2%;
   color: rgb(250, 239, 239);
@@ -61,6 +62,14 @@ img {
 
 #section_home {
   overflow: auto;
+}
+
+#family_back {
+  background-color: rgb(19, 98, 255);
+}
+
+#family_section {
+  background-color: rgba(178, 207, 255, 0.75);
 }
 
 #home_section {
