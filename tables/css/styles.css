@@ -1,3 +1,84 @@
 body {
   font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 10%;
+  background-color: green;
+  border-radius: 15px;
+  border: 2px solid black;
+  padding: 10px;
+  color: white;
+}
+
+table {
+  width: 80%;
+}
+
+#calendar {
+  width: 90%;
+  padding: 2%;
+  margin: 5%;
+}
+
+#calendar th {
+  background-color: rgb(2, 176, 2);
+  padding: 15px;
+}
+
+#calendar td {
+  vertical-align: top;
+  text-align: right;
+  height: 100px;
+  width: 100px;
+}
+
+#calendar table,
+#calendar th,
+#calendar td {
+  border: 1px solid black;
+}
+
+#calendar {
+  border-collapse: collapse;
+}
+
+.weekend {
+  background: rgba(54, 196, 54, 0.419);
+}
+
+#styling_table table,
+#styling_table th,
+#styling_table td {
+  border: 1px solid black;
+}
+
+#styling_table {
+  margin: 40px;
+  border-collapse: collapse;
+}
+
+#styling_table th {
+  background-color: rgba(81, 174, 81, 0.708);
+  color: black;
+}
+
+#styling_table td {
+  text-align: center;
+  background-color: rgba(79, 205, 79, 0.346);
+}
+
+#styling_table tr:hover {
+  background-color: yellow;
 }
