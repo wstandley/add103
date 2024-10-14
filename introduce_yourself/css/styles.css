@@ -129,6 +129,21 @@ nav {
   border: 3px solid white;
 }
 
+#work .hobbies_page:hover {
+  color: black;
+  background-color: grey;
+  border: 3px solid black;
+}
+
+#back_hobbies {
+  color: white;
+  background-color: rgb(95, 95, 95);
+}
+
+#hobbies_back {
+  background-color: grey;
+}
+
 #hobbies {
   float: inline-start;
   width: 25%;
@@ -153,9 +168,15 @@ nav {
   border: 3px solid white;
 }
 
+#hobbies .hobbies_page:hover {
+  color: black;
+  background-color: grey;
+  border: 3px solid black;
+}
+
 #family {
   width: 25%;
-  float: left;
+  float: inline-end;
 }
 
 #family .home_page:hover {
@@ -174,6 +195,12 @@ nav {
   color: white;
   background-color: rgb(19, 98, 255);
   border: 3px solid white;
+}
+
+#family .hobbies_page:hover {
+  color: black;
+  background-color: grey;
+  border: 3px solid black;
 }
 
 .football {
