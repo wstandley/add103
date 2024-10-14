@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+  color: grey;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+iframe {
+  border: 3px solid grey;
+  margin-left: 20%;
+  height: 300px;
+  width: 60%;
+}
