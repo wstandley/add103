@@ -111,15 +111,69 @@ nav {
   width: 25%;
 }
 
+#work .home_page:hover {
+  color: rgb(13, 74, 13);
+  background-color: rgba(165, 251, 165, 0.586);
+  border: 3px solid rgb(13, 74, 13);
+}
+
+#work .work_page:hover {
+  color: white;
+  background-color: rgb(124, 1, 1);
+  border: 3px solid white;
+}
+
+#work .family_page:hover {
+  color: white;
+  background-color: rgb(19, 98, 255);
+  border: 3px solid white;
+}
+
 #hobbies {
   float: inline-start;
   width: 25%;
   margin: 20px 20px 20px 8%;
 }
 
+#hobbies .home_page:hover {
+  color: rgb(13, 74, 13);
+  background-color: rgba(165, 251, 165, 0.586);
+  border: 3px solid rgb(13, 74, 13);
+}
+
+#hobbies .work_page:hover {
+  color: white;
+  background-color: rgb(124, 1, 1);
+  border: 3px solid white;
+}
+
+#hobbies .family_page:hover {
+  color: white;
+  background-color: rgb(19, 98, 255);
+  border: 3px solid white;
+}
+
 #family {
   width: 25%;
   float: left;
+}
+
+#family .home_page:hover {
+  color: rgb(13, 74, 13);
+  background-color: rgba(165, 251, 165, 0.586);
+  border: 3px solid rgb(13, 74, 13);
+}
+
+#family .work_page:hover {
+  color: white;
+  background-color: rgb(124, 1, 1);
+  border: 3px solid white;
+}
+
+#family .family_page:hover {
+  color: white;
+  background-color: rgb(19, 98, 255);
+  border: 3px solid white;
 }
 
 .football {
