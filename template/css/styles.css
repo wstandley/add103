@@ -1,0 +1,44 @@
+/* 
+    background = #132A13 (Background)
+    dark primary = #31572C (Header?)
+    dark secondary = #4F772D (Border)
+    light secondary = #90A955 (Subtext)
+    light primary = #ECF39E (Main Text)
+*/
+
+.bodoni-moda,
+header,
+h1,
+h2,
+h3 {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tinos-regular,
+p {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tinos-bold {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.tinos-regular-italic,
+em {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.tinos-bold-italic {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: italic;
+}
