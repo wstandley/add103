@@ -1,10 +1,10 @@
-/* 
-    background = #132A13 (Background)
-    dark primary = #31572C (Text)
-    dark secondary = #4F772D (Border)
-    light secondary = #90A955 (Heading)
-    light primary = #ECF39E (Secondary Background)
-*/
+:root {
+  --background: #132a13;
+  --dark-primary: #31572c;
+  --dark-secondary: #4f772d;
+  --light-secondary: #90a955;
+  --light-primary: #ecf39e;
+}
 
 .bodoni-moda,
 header,
@@ -44,26 +44,26 @@ em {
 }
 
 body {
-  background: #132a13;
+  background: var(--background);
 }
 
 header {
   text-align: center;
   font-size: xx-large;
-  color: #90a955;
+  color: var(--light-secondary);
 }
 
 .container {
-  background: #ecf39e;
+  background: var(--light-primary);
   width: 80%;
   margin: 10px auto;
-  color: #31572c;
+  color: var(--dark-primary);
 }
 
 nav {
   margin: 10px auto;
   width: 50%;
-  background: #ecf39e;
+  background: var(--light-primary);
   border-radius: 10px;
   padding: 15px;
 }
@@ -73,8 +73,8 @@ nav a {
   text-decoration: none;
   border: 2px solid black;
   border-radius: 10px;
-  background: #31572c;
-  color: #ecf39e;
+  background: var(--dark-primary);
+  color: var(--light-primary);
 }
 
 main {
