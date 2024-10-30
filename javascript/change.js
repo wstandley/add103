@@ -3,7 +3,7 @@ function change01() {
 }
 
 function change02() {
-  document.getElementById("large").src = "images/duck-pinball-rotate.jpeg";
+  document.getElementById("large").src = "images/carnival.jpeg";
 }
 
 function change03() {
