@@ -1,0 +1,138 @@
+/* 
+    background = #132A13 (Background)
+    dark primary = #31572C (Text)
+    dark secondary = #4F772D (Border)
+    light secondary = #90A955 (Heading)
+    light primary = #ECF39E (Secondary Background)
+*/
+
+.bodoni-moda,
+header,
+h1,
+h2,
+h3 {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tinos-regular,
+p {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tinos-bold {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.tinos-regular-italic,
+em {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.tinos-bold-italic {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  background: #132a13;
+}
+
+header {
+  text-align: center;
+  font-size: xx-large;
+  color: #90a955;
+}
+
+.container {
+  background: #ecf39e;
+  width: 80%;
+  margin: 10px auto;
+  color: #31572c;
+}
+
+nav {
+  text-align: center;
+  width: 60%;
+  margin: 10px auto;
+  background: #ecf39e;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+nav a {
+  text-align: center;
+  width: 80%;
+  padding: 10px;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 10%;
+  background: #31572c;
+  color: #ecf39e;
+}
+
+main {
+  overflow: auto;
+  width: 98%;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  width: 55%;
+  padding: 5px;
+}
+
+aside {
+  float: right;
+  min-height: 100px;
+  min-width: 100px;
+}
+
+#footer {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 10px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.grid-container div {
+  padding: 20px 0;
+  min-height: 100px;
+  width: 100%;
+}
+
+.grid-container div img {
+  width: 90%;
+  margin: 10px auto;
+  display: block;
+  cursor: pointer;
+  max-height: 150px;
+}
+
+#large {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 60%;
+  margin: 10px auto;
+  display: block;
+}

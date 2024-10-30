@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Javascript Grid</title>
+  </head>
+  <header>Javascript Grid Assignment</header>
+  <body>
+    <div class="container">
+      <main>
+        <h2>Images</h2>
+        <div class="grid-container">
+          <div>
+            <img
+              src="images/duck-in-boots-rotate.jpeg"
+              alt="Boots"
+              onclick="change01()"
+            />
+          </div>
+          <div>
+            <img
+              src="images/duck-pinball-rotate.jpeg"
+              alt="Pinball"
+              onclick="change02()"
+            />
+          </div>
+          <div>
+            <img
+              src="images/ducks-in-vegas-flip.jpeg"
+              alt="Vegas"
+              onclick="change03()"
+            />
+          </div>
+          <div>
+            <img
+              src="images/grand-canyon-ducks-resized.jpeg"
+              alt="Canyon"
+              onclick="change04()"
+            />
+          </div>
+          <div>
+            <img
+              src="images/light-ducks-crop.jpeg"
+              alt="Light"
+              onclick="change05()"
+            />
+          </div>
+        </div>
+        <div id="main-img">
+          <img src="images/duck-in-boots-rotate.jpeg" alt="" id="large" />
+        </div>
+      </main>
+      <footer>
+        <p id="footer">&copy; 2024 Will Standley</p>
+      </footer>
+    </div>
+    <script src="change.js"></script>
+  </body>
+</html>
