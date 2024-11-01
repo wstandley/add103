@@ -8,6 +8,7 @@
         Subtext = Grey or Black
 */
 
+/* Unna Font Stylings */
 .unna-regular {
   font-family: "Unna", serif;
   font-weight: 400;
@@ -30,4 +31,87 @@
   font-family: "Unna", serif;
   font-weight: 700;
   font-style: italic;
+}
+
+/* Body Stylings */
+body {
+  background: #132a13;
+}
+
+header {
+  background: rgb(180, 183, 168);
+  min-height: 150px;
+  border: 4px solid black;
+  font-size: x-large;
+  padding: 10px;
+}
+
+#page_title {
+  margin-right: 10%;
+  color: black;
+}
+
+#logo {
+  width: 15%;
+  float: inline-start;
+  display: block;
+  max-width: 200px;
+  min-width: 200px;
+  min-height: 150px;
+  max-height: 150px;
+}
+
+/* Heading Styles */
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+/* Navigation Styling */
+nav {
+  text-align: center;
+  width: 65%;
+  margin: 10px auto;
+  background: #ecf39e;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+nav a {
+  text-align: center;
+  padding: 7px;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: auto;
+  background: #31572c;
+  color: #ecf39e;
+  font-size: larger;
+}
+
+/* Main Body Stylings */
+main {
+  background: #ecf39e;
+  width: 90%;
+  min-height: 500px;
+  margin: 10px auto;
+  border-radius: 15px;
+}
+
+h2,
+h3,
+p {
+  color: #31572c;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  color: rgb(156, 156, 156);
+}
+
+#footer {
+  text-align: center;
+  color: rgb(156, 156, 156);
 }
