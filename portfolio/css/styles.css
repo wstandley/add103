@@ -80,11 +80,11 @@ nav {
 
 nav a {
   text-align: center;
-  padding: 7px;
+  padding: 8px;
   text-decoration: none;
   border: 2px solid black;
   border-radius: 10px;
-  margin: auto;
+  margin: 0px 5% 0px 5%;
   background: #31572c;
   color: #ecf39e;
   font-size: larger;
@@ -107,23 +107,23 @@ p {
 
 /* Asides Styles */
 .left {
-  max-width: 40%;
   min-width: 40%;
-  min-height: 200px;
+  max-width: 40%;
+  min-height: 300px;
   background: #ecf39e;
   float: inline-start;
   border-radius: 15px;
-  margin-left: 5%;
+  margin: 2% 5%;
 }
 
 .right {
-  max-width: 40%;
   min-width: 40%;
-  min-height: 200px;
+  max-width: 40%;
+  min-height: 300px;
   background: #ecf39e;
   border-radius: 15px;
-  margin-left: 55%;
-  margin-right: 5%;
+  float: inline-end;
+  margin: 2% 5%;
 }
 
 /* Albums Styling */
@@ -139,13 +139,14 @@ p {
   align-items: center;
   align-content: center;
   overflow: auto;
+  padding: 20px;
 }
 
 #cover {
   background: grey;
   max-height: 33%;
   max-width: 15%;
-  padding: 10px;
+  padding: 15px;
   border: 5px solid;
 }
 
