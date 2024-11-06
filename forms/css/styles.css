@@ -1,0 +1,131 @@
+/* 
+    background = #132A13 (Background)
+    dark primary = #31572C (Text)
+    dark secondary = #4F772D (Border)
+    light secondary = #90A955 (Heading)
+    light primary = #ECF39E (Secondary Background)
+*/
+
+.bodoni-moda,
+header,
+h1,
+h2,
+h3 {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tinos-regular,
+p {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tinos-bold {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.tinos-regular-italic,
+em {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.tinos-bold-italic {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  background: #132a13;
+}
+
+header {
+  text-align: center;
+  font-size: xx-large;
+  color: #90a955;
+}
+
+.container {
+  background: #ecf39e;
+  width: 80%;
+  margin: 10px auto;
+  color: #31572c;
+}
+
+nav {
+  text-align: center;
+  width: 60%;
+  margin: 10px auto;
+  background: #ecf39e;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+nav a {
+  text-align: center;
+  width: 80%;
+  padding: 10px;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 10%;
+  background: #31572c;
+  color: #ecf39e;
+}
+
+main {
+  overflow: auto;
+}
+
+h2 {
+  text-align: left;
+  padding: 10px;
+}
+
+p {
+  width: 55%;
+  padding: 5px;
+}
+
+aside {
+  float: right;
+  min-height: 100px;
+  min-width: 100px;
+}
+
+#footer {
+  text-align: center;
+  margin: 10px auto;
+}
+
+input[type="text"] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+
+form {
+  padding: 20px;
+}
+
+form input:focus {
+  background: #90a955;
+}
+
+h1 {
+  text-align: center;
+}
+
+#checkbox {
+  padding: 5px;
+}

@@ -3,8 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <title>HTML Forms</title>
   </head>
-  <body></body>
+  <header><h1>HTML Forms</h1></header>
+  <body>
+    <div class="container">
+      <main>
+        <h1>Your Consoles</h1>
+        <form>
+          <label for="fname">First name:</label><br />
+          <input type="text" id="fname" name="fname" value="Will" /><br />
+          <label for="lname">Last name:</label><br />
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            value="Standley"
+          /><br /><br />
+        </form>
+        <h2>How Many Consoles do you own?</h2>
+        <form>
+          <label for="quantity">Quantity (between 1 and 5):</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="5" />
+        </form>
+        <h2>What Consoles do you own?</h2>
+        <form>
+          <input type="checkbox" id="console1" name="console1" value="Xbox" />
+          <label for="console1"> I have a Xbox</label><br />
+          <input type="checkbox" id="console2" name="console2" value="PS5" />
+          <label for="console2"> I have a PS5</label><br />
+          <input type="checkbox" id="console3" name="console3" value="PC" />
+          <label for="console3"> I have a PC</label><br />
+          <input type="checkbox" id="console4" name="console4" value="Switch" />
+          <label for="console4"> I have a Nintendo Switch</label><br />
+          <input type="checkbox" id="console5" name="console5" value="Other" />
+          <label for="console5"> Other consoles...</label><br />
+        </form>
+        <h2>Do you have a gaming page?</h2>
+        <form>
+          <label for="homepage">Add your homepage:</label>
+          <input type="url" id="homepage" name="homepage" />
+        </form>
+        <input type="submit" value="Submit" />
+      </main>
+      <footer>
+        <p id="footer">&copy; 2024 Will Standley</p>
+      </footer>
+    </div>
+  </body>
 </html>
