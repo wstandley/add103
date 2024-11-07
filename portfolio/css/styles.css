@@ -116,6 +116,10 @@ p {
   margin: 10px;
 }
 
+img {
+  border-radius: 45px;
+}
+
 /* Asides Styles */
 .left {
   min-width: 40%;
@@ -139,23 +143,31 @@ p {
 
 /* Albums Styling */
 .albums {
-  width: 90%;
+  width: 80%;
   margin: 10px auto;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  overflow: auto;
+}
+
+#cover {
+  max-height: 33%;
+  max-width: 15%;
+  padding: 20px;
+}
+
+.titles {
+  width: 100%;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   align-content: center;
   overflow: auto;
-  padding: 20px;
-}
-
-#cover {
-  background: grey;
-  max-height: 33%;
-  max-width: 15%;
-  padding: 15px;
-  border: 5px solid;
 }
 
 /* Footer */
