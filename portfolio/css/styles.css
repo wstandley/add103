@@ -35,30 +35,32 @@
 
 /* Body Stylings */
 body {
-  background: #132a13;
+  background: rgb(39, 87, 39);
+  background: linear-gradient(180deg, #132a13 16%, rgba(0, 0, 0, 1) 84%);
 }
 
 header {
   background: rgb(180, 183, 168);
-  min-height: 150px;
   border: 4px solid black;
-  font-size: xx-large;
+  font-size: 32px;
   padding: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  max-height: 115px;
 }
 
 #page_title {
-  margin-right: 10%;
   color: black;
 }
 
 #logo {
   width: 15%;
-  float: inline-start;
-  display: block;
-  max-width: 200px;
-  min-width: 200px;
-  min-height: 190px;
-  max-height: 190px;
+  padding: 2%;
+  max-height: 115px;
+  max-width: 115px;
 }
 
 /* Heading Styles */
@@ -73,7 +75,7 @@ nav {
   text-align: center;
   width: 65%;
   margin: 10px auto;
-  background: #ecf39e;
+  background: #d4da8d;
   border-radius: 10px;
   padding: 15px;
 }
@@ -86,14 +88,14 @@ nav a {
   border-radius: 10px;
   margin: 1%;
   background: #31572c;
-  color: #ecf39e;
+  color: #d4da8d;
   font-size: larger;
   display: inline-block;
 }
 
 /* Main Body Stylings */
 main {
-  background: #ecf39e;
+  background: #d4da8d;
   width: 90%;
   min-height: 500px;
   margin: 10px auto;
@@ -106,12 +108,20 @@ p {
   color: #31572c;
 }
 
+h2 {
+  padding: 5px;
+}
+
+p {
+  margin: 10px;
+}
+
 /* Asides Styles */
 .left {
   min-width: 40%;
   max-width: 40%;
   min-height: 300px;
-  background: #ecf39e;
+  background: #d4da8d;
   float: inline-start;
   border-radius: 15px;
   margin: 2% 5%;
@@ -121,7 +131,7 @@ p {
   min-width: 40%;
   max-width: 40%;
   min-height: 300px;
-  background: #ecf39e;
+  background: #d4da8d;
   border-radius: 15px;
   float: inline-end;
   margin: 2% 5%;
@@ -129,10 +139,8 @@ p {
 
 /* Albums Styling */
 .albums {
-  background: black;
   width: 90%;
   margin: 10px auto;
-  border-radius: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
