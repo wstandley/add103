@@ -153,21 +153,19 @@ img {
   overflow: auto;
 }
 
-#cover {
-  max-height: 33%;
-  max-width: 15%;
-  padding: 20px;
+#album {
+  text-align: center;
+  padding: 10px;
+  min-width: 25%;
+  min-height: 500px;
 }
 
-.titles {
-  width: 100%;
+#cover {
+  max-width: 90%;
+}
+
+#album_titles {
   margin: 10px auto;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  overflow: auto;
 }
 
 /* Footer */
