@@ -12,14 +12,10 @@
     />
     <!-- ********** CHAT GPT LINK ************** -->
     <!-- https://chatgpt.com/share/67294ac7-5c04-8013-af9d-81a5b14482ac -->
-    <!-- Insert Project Topic as Title of page -->
     <title>Bruno Mars</title>
   </head>
   <header>
-    <img src="../images/logo.png" alt="logo" id="logo" />
-    <!-- Insert Project Topic as Title of page -->
     <h1 id="page_title">Artists I Listen To</h1>
-    <img src="../images/logo.png" alt="logo" id="logo" />
   </header>
   <nav>
     <a href="../index.html">Tyler, The Creator</a>
@@ -30,13 +26,51 @@
   <body>
     <main>
       <h2><u>Bruno Mars</u></h2>
-      <!-- Insert an Image Here -->
-      <div class="main_text"></div>
+      <img
+        src="https://t2.genius.com/unsafe/300x0/https%3A%2F%2Fimages.genius.com%2Fa2de648becefaaa489ece74d5c0926b0.1000x1000x1.png"
+        alt=""
+        id="large"
+      />
+      <div class="main_text">
+        <p>
+          Bruno has released several successful albums throughout his career.
+          His debut album, <em>Doo-Wops & Hooligans</em>, was released in 2010
+          and included hit singles like “Just the Way You Are” and “Grenade.”
+          His second album, <em>Unorthodox Jukebox</em>, came out in 2012 and
+          featured popular tracks such as “Locked Out of Heaven” and “When I Was
+          Your Man.” In 2016, he released <em>24K Magic</em>, which solidified
+          his place in the music industry with songs like “24K Magic” and
+          “That’s What I Like.”
+        </p>
+        <p>
+          In addition to his albums, Bruno Mars is known for his amazing live
+          performances. He performed at the Super Bowl alongside Beyoncé and
+          Coldplay, which was one of my favorite halftime shows. His energy and
+          showmanship during the performance were unforgettable.
+        </p>
+        <p>
+          Bruno has also collaborated with many famous artists, including
+          Anderson .Paak, with whom he formed the duo Silk Sonic. Their song
+          “Leave the Door Open” became a massive hit, showcasing their smooth
+          harmonies and musical chemistry. Bruno Mars has proven to be a
+          versatile and beloved artist, and his music continues to inspire and
+          entertain fans around the world.
+        </p>
+      </div>
     </main>
     <div id="facts">
       <aside class="left">
-        <h2>Background</h2>
-        <p></p>
+        <h2>How I've listened</h2>
+        <p>
+          Bruno Mars is a talented singer and songwriter known for his catchy
+          songs and incredible performances. I grew up listening to Bruno as a
+          young kid, and before I had access to streaming music, I would listen
+          to the radio every day before school or other activities. His music
+          always brought a smile to my face. Two of my favorite songs from him
+          as a kid were “Grenade” and “The Lazy Song.” His hit “24K Magic” is
+          also a favorite that everyone loves, showcasing his fun and upbeat
+          style.
+        </p>
       </aside>
       <aside class="right">
         <!-- Add Current Top 5 Songs closer to Project due date -->
@@ -45,31 +79,31 @@
           <ol>
             <u> Top Song</u>
             <dd>
-              <em></em>
+              <em>Die With A Smile</em>
             </dd>
           </ol>
           <ol>
             <u>2nd</u>
             <dd>
-              <em></em>
+              <em>APT.</em>
             </dd>
           </ol>
           <ol>
             <u>3rd</u>
             <dd>
-              <em></em>
+              <em>When I Was Your Man</em>
             </dd>
           </ol>
           <ol>
             <u>4th</u>
             <dd>
-              <em></em>
+              <em>Locked Out of Heaven</em>
             </dd>
           </ol>
           <ol>
             <u>5th</u>
             <dd>
-              <em></em>
+              <em>Just the Way You Are</em>
             </dd>
           </ol>
         </dl>
@@ -83,6 +117,7 @@
           src="https://t2.genius.com/unsafe/300x0/https%3A%2F%2Fimages.genius.com%2Fa2de648becefaaa489ece74d5c0926b0.1000x1000x1.png"
           alt="Doo-Wops & Hooligans"
           id="cover"
+          onclick="change01()"
         />
         <h2 id="album_title">Doo-Wops & Hooligans</h2>
       </div>
@@ -92,6 +127,7 @@
           src="https://t2.genius.com/unsafe/300x0/https%3A%2F%2Fimages.genius.com%2F6c24e8a9aefba27d00322109f6e46731.1000x1000x1.png"
           alt="Unorthodox Jukebox"
           id="cover"
+          onclick="change02()"
         />
         <h2 id="album_title">Unorthodox Jukebox</h2>
       </div>
@@ -101,6 +137,7 @@
           src="https://t2.genius.com/unsafe/300x0/https%3A%2F%2Fimages.genius.com%2Fde4cdccbbae0fd049dda637295f17bca.1000x1000x1.jpg"
           alt="24K Magic"
           id="cover"
+          onclick="change03()"
         />
         <h2 id="album_title">24K Magic</h2>
       </div>
@@ -110,6 +147,7 @@
           src="https://t2.genius.com/unsafe/300x0/https%3A%2F%2Fimages.genius.com%2F77981e411ef0855dea70b61f07982338.640x640x1.jpg"
           alt="An Evening with Silk Sonic"
           id="cover"
+          onclick="change04()"
         />
         <h2 id="album_title">An Evening with Silk Sonic</h2>
       </div>
@@ -118,4 +156,5 @@
   <footer>
     <p id="footer">&copy;2024 Will Standley in Collaboration with ChatGPT</p>
   </footer>
+  <script src="change.js"></script>
 </html>

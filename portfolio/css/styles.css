@@ -109,12 +109,13 @@ p {
 
 h2 {
   padding: 5px;
+  font-size: 30px;
 }
 
 p {
   margin: 10px;
   line-height: 1.75;
-  font-size: larger;
+  font-size: 21px;
   padding: 10px;
 }
 
@@ -140,6 +141,12 @@ figcaption {
   max-width: 30%;
   padding: 0.0001% 5%;
   text-align: center;
+}
+
+#large {
+  float: right;
+  min-width: 33%;
+  padding: 1% 5%;
 }
 
 /* Asides Styles */
