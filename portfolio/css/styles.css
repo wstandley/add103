@@ -97,9 +97,9 @@ nav a {
 main {
   background: #d4da8d;
   width: 90%;
-  min-height: 500px;
   margin: 10px auto;
   border-radius: 15px;
+  overflow: auto;
 }
 
 h2,
@@ -114,17 +114,32 @@ h2 {
 
 p {
   margin: 10px;
+  line-height: 1.75;
+  font-size: larger;
 }
 
 img {
   border-radius: 45px;
 }
 
+.main_text {
+  max-width: 60%;
+}
+
+#rfloat {
+  float: right;
+  max-width: 30%;
+  padding: 1% 5%;
+}
+
 /* Asides Styles */
+#facts {
+  overflow: auto;
+}
+
 .left {
   min-width: 40%;
   max-width: 40%;
-  min-height: 300px;
   background: #d4da8d;
   float: inline-start;
   border-radius: 15px;
@@ -134,11 +149,14 @@ img {
 .right {
   min-width: 40%;
   max-width: 40%;
-  min-height: 300px;
   background: #d4da8d;
   border-radius: 15px;
   float: inline-end;
   margin: 2% 5%;
+}
+
+ol {
+  line-height: 1.75;
 }
 
 /* Albums Styling */
@@ -151,6 +169,16 @@ img {
   align-items: center;
   align-content: center;
   overflow: auto;
+}
+
+#albums {
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
 }
 
 #album {
@@ -166,6 +194,11 @@ img {
 
 #album_titles {
   margin: 10px auto;
+}
+
+#section_albums {
+  font-size: 45px;
+  text-align: center;
 }
 
 /* Footer */
