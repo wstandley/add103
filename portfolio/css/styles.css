@@ -35,8 +35,7 @@
 
 /* Body Stylings */
 body {
-  background: rgb(39, 87, 39);
-  background: linear-gradient(180deg, #132a13 16%, rgba(0, 0, 0, 1) 84%);
+  background: linear-gradient(180deg, #1a3a1a 40%, rgb(0, 0, 0) 60%);
 }
 
 header {
@@ -140,6 +139,7 @@ figcaption {
   float: right;
   max-width: 30%;
   padding: 0.0001% 5%;
+  text-align: center;
 }
 
 /* Asides Styles */
@@ -203,13 +203,14 @@ ol {
   max-width: 90%;
 }
 
-#album_titles {
-  margin: 10px auto;
+#album_title {
+  color: #d4da8d;
 }
 
 #section_albums {
   font-size: 45px;
   text-align: center;
+  color: #d4da8d;
 }
 
 /* Footer */
