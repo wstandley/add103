@@ -129,6 +129,13 @@ img {
   float: inline-start;
 }
 
+.main_text_kendrick {
+  max-width: 55%;
+  margin: 10px;
+  float: right;
+  text-align: right;
+}
+
 #rfloat {
   float: right;
   max-width: 30%;
@@ -147,6 +154,50 @@ figcaption {
   float: right;
   min-width: 33%;
   padding: 1% 5%;
+}
+
+#kendrick {
+  float: left;
+  max-width: 100%;
+}
+
+#content {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  overflow: auto;
+}
+
+#fig_img {
+  background: linear-gradient(90deg, #31572c 10%, #d4da8d 90%);
+  padding: 8px;
+  border-radius: 50px;
+}
+
+#img_left {
+  max-width: 100%;
+}
+
+.low_left {
+  min-width: 40%;
+  max-width: 40%;
+  float: inline-start;
+  border-radius: 15px;
+  margin: 2% 5%;
+}
+
+.low_right {
+  min-width: 40%;
+  max-width: 40%;
+  border-radius: 15px;
+  float: inline-end;
+  margin: 2% 5%;
+}
+
+#img_right {
+  max-width: 100%;
 }
 
 /* Asides Styles */
@@ -207,7 +258,7 @@ ol {
 }
 
 #cover {
-  max-width: 90%;
+  max-width: 100%;
 }
 
 #album_title {
