@@ -161,6 +161,21 @@ figcaption {
   max-width: 100%;
 }
 
+.collage {
+  float: inline-end;
+  display: flex;
+  flex-direction: column;
+}
+
+#jelly_fig {
+  max-width: 80%;
+}
+
+#jelly_image {
+  max-width: 480px;
+  border-radius: 0px;
+}
+
 #content {
   display: flex;
   flex-wrap: nowrap;
