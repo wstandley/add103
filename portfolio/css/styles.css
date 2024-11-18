@@ -85,7 +85,8 @@ nav a {
   display: inline-block;
 }
 
-nav a:hover {
+nav a:hover,
+.active {
   -webkit-box-shadow: -4px 4px 3px 0 black;
   box-shadow: -4px 4px 3px 0 black;
   border: 2px solid black;
