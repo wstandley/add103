@@ -23,3 +23,12 @@ footer {
   text-align: center;
   align-content: center;
 }
+
+img {
+  width: 400px;
+}
+
+.table-bordered,
+.table-dark {
+  width: 80%;
+}
