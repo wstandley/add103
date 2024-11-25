@@ -1,3 +1,86 @@
+/*
+  Mint Cream = #F1F7ED
+  Dark Slate Gray = #243E36
+  Cambridge Blue = #7CA982
+  Nyanza = #E0EEC6
+  Old Gold = #C2A83E
+*/
 body {
-  background: linear-gradient(180deg, #1a3a1a 40%, rgb(0, 0, 0) 60%);
+  background: #243e36;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: #f1f7ed;
+}
+
+p {
+  margin: 10px;
+  line-height: 1.75;
+  font-size: 24px;
+  padding: 10px;
+}
+
+h1 {
+  padding: 20px;
+}
+
+.navbar-brand {
+  font-size: xx-large;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  background: #7ca982;
+  width: 90%;
+  border-radius: 15px;
+  overflow: auto;
+  margin: 10px auto;
+}
+
+#content {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  overflow: auto;
+}
+
+.main_text {
+  width: 55%;
+  margin: 10px;
+  float: inline-start;
+}
+
+.collage {
+  float: inline-end;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+figcaption p {
+  text-align: center;
+}
+
+#rfloat {
+  float: right;
+  max-width: 100%;
+  padding: 1% 5%;
+}
+
+iframe {
+  width: 100%;
+}
+
+#footer {
+  color: rgb(190, 189, 189);
+  text-align: center;
 }
