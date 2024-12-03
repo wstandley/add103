@@ -5,6 +5,7 @@
   Nyanza = #E0EEC6
   Old Gold = #C2A83E
 */
+
 body {
   background: #243e36;
 }
@@ -47,7 +48,7 @@ main {
 #content {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   align-content: center;
   overflow: auto;
@@ -59,11 +60,64 @@ main {
   float: inline-start;
 }
 
+.offcanvas-title,
+.offcanvas-body p,
+.offcanvas-body h2 {
+  color: #f1f7ed;
+}
+
+.offcanvas-body h2 {
+  text-align: left;
+}
+
+.offcanvas-body p {
+  text-align: left;
+  margin-left: 8%;
+}
+
+.offcanvas {
+  background: #243e36;
+}
+
+.k_main_text {
+  width: 55%;
+  margin: 10px;
+  float: inline-end;
+}
+
+#kendrick {
+  width: 40%;
+  margin: 10px;
+  padding: 10px;
+}
+
 .collage {
   float: inline-end;
   display: flex;
   flex-direction: column;
   width: 45%;
+}
+
+.collage img {
+  width: 95%;
+}
+
+#demo {
+  width: 40%;
+  margin: 10px auto;
+}
+
+.btn {
+  padding: 10px;
+  margin: 10px;
+  font-size: x-large;
+  background-color: #243e36;
+  border: 2px solid black;
+}
+
+.btn:hover {
+  background-color: #7ca982;
+  border: 2px solid black;
 }
 
 figcaption p {
@@ -78,6 +132,100 @@ figcaption p {
 
 iframe {
   width: 100%;
+}
+
+.albums {
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  overflow: auto;
+}
+
+#albums {
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+
+#album {
+  text-align: center;
+  padding: 10px;
+  min-width: 25%;
+  min-height: 500px;
+}
+
+#cover {
+  max-width: 100%;
+}
+
+#album_title {
+  color: #f1f7ed;
+}
+
+#facts {
+  width: 90%;
+  overflow: auto;
+  margin: 2% 5%;
+}
+
+#facts_1,
+#facts_2 {
+  width: 43%;
+}
+
+#facts_1 {
+  float: inline-start;
+}
+
+#facts_2 {
+  float: inline-end;
+}
+
+#collap,
+#collap_1 {
+  background: #243e36;
+  color: #f1f7ed;
+  margin: 10px;
+  text-align: center;
+  padding: 5px;
+}
+
+#fact-head {
+  overflow: auto;
+  background: #7ca982;
+}
+
+#subsect {
+  font-size: x-large;
+  line-height: 0.5;
+  padding: 2px;
+  margin: 10px auto;
+}
+
+#collap {
+  float: inline-end;
+}
+
+#collap_1 {
+  float: inline-start;
+}
+
+.collapse {
+  background: #7ca982;
+}
+
+#section_albums {
+  font-size: 45px;
+  text-align: center;
+  color: #f1f7ed;
 }
 
 #footer {
