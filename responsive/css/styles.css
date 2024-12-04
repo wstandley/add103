@@ -32,6 +32,11 @@ h1 {
   font-size: xx-large;
 }
 
+.navbar-collapse,
+.nav-item {
+  background: #212529;
+}
+
 h2 {
   text-align: center;
   padding: 20px;
@@ -183,10 +188,14 @@ iframe {
 
 #facts_1 {
   float: inline-start;
+  overflow: auto;
+  background: #7ca982;
 }
 
 #facts_2 {
   float: inline-end;
+  overflow: auto;
+  background: #7ca982;
 }
 
 #collap,
@@ -196,6 +205,7 @@ iframe {
   margin: 10px;
   text-align: center;
   padding: 5px;
+  overflow: auto;
 }
 
 #fact-head {
@@ -203,11 +213,21 @@ iframe {
   background: #7ca982;
 }
 
+#songs {
+  text-align: left;
+  font-size: x-large;
+}
+
 #subsect {
   font-size: x-large;
   line-height: 0.5;
   padding: 2px;
   margin: 10px auto;
+}
+
+#collap_content {
+  float: left;
+  background: #7ca982;
 }
 
 #collap {
