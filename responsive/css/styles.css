@@ -28,8 +28,9 @@ h1 {
   padding: 20px;
 }
 
-.navbar-brand {
-  font-size: xx-large;
+.display-6 {
+  color: #f1f7ed;
+  text-decoration: none;
 }
 
 .navbar-collapse,
@@ -251,4 +252,13 @@ iframe {
 #footer {
   color: rgb(190, 189, 189);
   text-align: center;
+}
+
+.table {
+  margin: 10px auto;
+  width: 300px;
+}
+
+.row {
+  background: #7ca982;
 }

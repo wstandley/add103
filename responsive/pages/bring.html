@@ -16,7 +16,7 @@
     <nav class="navbar bg-dark navbar-dark">
       <div class="container-fluid">
         <h1>
-          <a class="navbar-brand" href="#">Artists I Listen To</a>
+          <a class="display-6" href="#">Artists I Listen To</a>
         </h1>
         <button
           class="navbar-toggler"
@@ -93,47 +93,37 @@
           </figcaption>
         </figure>
       </div>
-      <div id="content">
-        <!-- Offcanvas Sidebar -->
-        <div id="collage">
-          <div class="offcanvas offcanvas-end" id="demo">
-            <div class="offcanvas-header">
-              <h1 class="offcanvas-title">
-                Bring Me The Horizon's Top 5 Songs
-              </h1>
-              <button
-                type="button"
-                class="btn-close text-reset"
-                data-bs-dismiss="offcanvas"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <h2><u>Top Song</u></h2>
-              <p><em>Can You Feel My Heart</em></p>
-              <h2><u>2nd</u></h2>
-              <p><em>Happy Song</em></p>
-              <h2><u>3rd</u></h2>
-              <p><em>Sleepwalking</em></p>
-              <h2><u>4th</u></h2>
-              <p><em>Throne</em></p>
-              <h2><u>5th</u></h2>
-              <p><em>Teardrops</em></p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Button to open the offcanvas sidebar -->
-        <div id="discography">
-          <button
-            class="btn btn-primary"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#demo"
-          >
-            Bring Me The Horizon's Top 5 Songs
-          </button>
-        </div>
-      </div>
+      <h2>Bring Me The Horizon's Top 5 Songs</h2>
+      <table class="table table-bordered">
+        <thead>
+          <tr class="table-success">
+            <th class="col">Song Rank</th>
+            <th class="col">Song Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-success">
+            <td class="col"><u>Top Song</u></td>
+            <td class="col">Can You feel My Heart</td>
+          </tr>
+          <tr class="table-success">
+            <td class="col"><u>2nd</u></td>
+            <td class="col">Happy Song</td>
+          </tr>
+          <tr class="table-success">
+            <td class="col"><u>3rd</u></td>
+            <td class="col">Sleepwalking</td>
+          </tr>
+          <tr class="table-success">
+            <td class="col"><u>4th</u></td>
+            <td class="col">Throne</td>
+          </tr>
+          <tr class="table-success">
+            <td class="col"><u>5th</u></td>
+            <td class="col">Teardrops</td>
+          </tr>
+        </tbody>
+      </table>
     </main>
     <h2 id="section_albums">Albums</h2>
     <div class="albums">
